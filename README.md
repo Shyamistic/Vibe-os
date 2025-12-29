@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🧬 VibeOS // A Nervous System for Your Computer
 
-## Getting Started
+"Productivity tools manage your tasks. VibeOS manages your biology."
 
-First, run the development server:
+VibeOS is a generative, adaptive cognitive interface built for the Maximally Vibe-a-thon. It acts as a biological abstraction layer between the human and the machine, using Generative AI (Google Gemini), 3D Physics (Three.js), and real-time Audio Synthesis (Web Audio API) to create an environment that mirrors and regulates your mental state.
 
-```bash
+⚡️ The Core Loop
+
+Neural Sync: You input your current cognitive state (e.g., "I'm drowning in bugs" or "Locking in with coffee").
+
+Sentiment Decoding: Google Gemini parses your syntax and compiles it into a strict JSON schema of physical and auditory parameters.
+
+Physical Manifestation: The Vibe Orb (a 3D entity built in Three.js) morphs its distortion, viscosity, and color based on the AI's vectors.
+
+Acoustic Synthesis: The OS generates a real-time drone using math, not MP3s. It creates waveforms that shift pitch and timbre to match your "Vibe."
+
+🔮 Features
+
+1. The Vibe Orb (The Body)
+
+A central 3D fluid entity rendered with React Three Fiber. It uses MeshDistortMaterial to visually represent your focus.
+
+Panic State: Jagged, red, high-frequency wobble.
+
+Flow State: Smooth, neon, rhythmic pulse.
+
+2. Generative Drones (The Voice)
+
+Built entirely with the Web Audio API.
+
+No static assets: Every sound is a real-time mathematical calculation.
+
+Cinematic Filtering: Uses Biquad Filter Nodes to turn harsh waveforms into deep, cinematic growls or soothing hums.
+
+3. The "Matrix" Decryption
+
+Text doesn't just "load." It decrypts. Using a custom scrambling hook, AI responses cycle through random characters before locking into place, providing a visceral "decoding" feel.
+
+4. Brain Dump Tool 🧠
+
+A digital therapy tool. Type your anxieties into the dump box—if you stop typing for 5 seconds, the text blurs and vanishes. Write it to let it go.
+
+5. Focus Physics (Timer)
+
+A Pomodoro timer integrated into the 3D physics. As time passes, the Orb physically shrinks, creating an intuitive sense of time passing without the stress of a ticking clock.
+
+🛠 Tech Stack
+
+Layer
+
+Technology
+
+Framework
+
+Next.js 15 (App Router)
+
+Intelligence
+
+Google Gemini 1.5 Flash / 2.5
+
+Visuals
+
+Three.js / React Three Fiber
+
+Sound
+
+Web Audio API (Synthesizers)
+
+State
+
+Zustand
+
+Aesthetics
+
+Raw CSS Glassmorphism
+
+🚀 Getting Started
+
+Clone the neural link:
+
+git clone [https://github.com/Shyamistic/vibe-os.git](https://github.com/Shyamistic/vibe-os.git)
+cd vibe-os
+
+
+Install dependencies:
+
+npm install
+
+
+Configure the Brain:
+Create a .env.local file and add your Gemini API Key:
+
+GEMINI_API_KEY=your_key_here
+
+
+Boot the system:
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Access the interface:
+Open http://localhost:3000 and click the Speaker Icon to initiate the bio-audio link.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+ Roadmap
 
-## Learn More
+VibeOS is designed to scale into a full cognitive environment:
 
-To learn more about Next.js, take a look at the following resources:
+[ ] Spotify Pulse Sync: Orb throbbing to your music's BPM.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[ ] IoT Light Integration: Room lights changing color to match the Orb.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+[ ] Binaural Beats: Audio generation to induce specific brainwave states (Alpha/Theta).
 
-## Deploy on Vercel
+[ ] Biometric Hook: Heart-rate-to-vibe automation.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🏆 Hackathon Credits
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Built in 48 hours for the Maximally Vibe-a-thon.
+
+Judge's Note: If the Gemini API hits a quota limit, the system features a custom Hybrid Fallback Engine that switches to local keyword sentiment analysis—the vibe never breaks.
+
+VibeOS // Made for the people who code because it feels good.
